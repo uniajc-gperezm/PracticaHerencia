@@ -61,4 +61,11 @@ public class Cuenta {
         this.tasaAnual = tasaAnual;
     }
     
+    public void consignar(float cantidad) {
+        
+    }
+    
+    public void retirar(float cantidad) {
+        
+    }
 }
