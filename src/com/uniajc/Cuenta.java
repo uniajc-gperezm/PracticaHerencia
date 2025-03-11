@@ -55,5 +55,10 @@ public class Cuenta {
     public void setComisionMensual(float comisionMensual) {
         this.comisionMensual = comisionMensual;
     }
+
+    public Cuenta(float saldo, float tasaAnual) {
+        this.saldo = saldo;
+        this.tasaAnual = tasaAnual;
+    }
     
 }
