@@ -68,4 +68,8 @@ public class Cuenta {
     public void retirar(float cantidad) {
         
     }
+    
+    public void calcularInteres() {};
+    
+    public void extractoMensual() {};
 }
