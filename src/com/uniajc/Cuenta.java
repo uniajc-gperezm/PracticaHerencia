@@ -63,6 +63,7 @@ public class Cuenta {
     
     public void consignar(float cantidad) {
         saldo = saldo + cantidad;
+        numeroConsignaciones = numeroConsignaciones + 1;
     }
     
     public void retirar(float cantidad) {
@@ -70,6 +71,7 @@ public class Cuenta {
         
         if (nuevoSaldo >= 0) {
             saldo = nuevoSaldo;
+            numeroRetiros = numeroRetiros + 1;
         } else {
             System.out.println("La cantidad a retirar excede el saldo actual.");
         }
