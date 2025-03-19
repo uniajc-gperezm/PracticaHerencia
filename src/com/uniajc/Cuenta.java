@@ -62,7 +62,7 @@ public class Cuenta {
     }
     
     public void consignar(float cantidad) {
-        
+        saldo = saldo + cantidad;
     }
     
     public void retirar(float cantidad) {
